@@ -1,0 +1,22 @@
+.About{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+h1{
+    font-size: 60px;
+}
+@media (max-width:496px) {
+
+    h1{
+        font-size: 30px;
+        
+    }
+}
+@media (max-width:400px) {
+   
+    h1{
+        font-size: 35px;
+        
+    }
+}
